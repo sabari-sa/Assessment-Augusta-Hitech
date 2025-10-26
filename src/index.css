@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Basic styling for the clean dashboard theme */
+body {
+  @apply bg-gray-50 text-gray-800;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+.profile{
+
+}
+.profile img{
+  width: 40px; /* smaller image */
+  height: 40px;
+  border-radius: 9999px; /* makes it circular */
+  object-fit: cover; 
+}
